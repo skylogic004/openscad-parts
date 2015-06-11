@@ -17,12 +17,12 @@ Can be customized using OpenSCAD (has parameters for distance between screws, va
 
 Version 2 screenshots:
 
-![LM10UU holder MM2](images\LM10UU-holder-v2-view4.png)
-![LM10UU holder MM2](images\LM10UU-holder-v2-pic1.jpg)
-![LM10UU holder MM2](images\LM10UU-holder-v2-pic2.jpg)
-![LM10UU holder MM2](images\LM10UU-holder-v2-view1.png)
-![LM10UU holder MM2](images\LM10UU-holder-v2-view2.png)
-![LM10UU holder MM2](images\LM10UU-holder-v2-view3.png)
+![LM10UU holder MM2](images/LM10UU-holder-v2-view4.png)
+![LM10UU holder MM2](images/LM10UU-holder-v2-pic1.jpg)
+![LM10UU holder MM2](images/LM10UU-holder-v2-pic2.jpg)
+![LM10UU holder MM2](images/LM10UU-holder-v2-view1.png)
+![LM10UU holder MM2](images/LM10UU-holder-v2-view2.png)
+![LM10UU holder MM2](images/LM10UU-holder-v2-view3.png)
 
 Version 1 screenshots:
 
