@@ -1,3 +1,9 @@
 [submodule "nutsnbolts"]
 	path = nutsnbolts
 	url = https://github.com/JohK/nutsnbolts.git
+[submodule "i2_xends"]
+	path = i2_xends
+	url = https://github.com/StephS/i2_xends.git
+[submodule "3rd-party/MCAD"]
+	path = 3rd-party/MCAD
+	url = https://github.com/elmom/MCAD.git
