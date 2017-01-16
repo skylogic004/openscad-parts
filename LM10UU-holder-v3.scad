@@ -1,5 +1,4 @@
 // Made by Matthew Dirks - http://skylogic.ca
-//TODO: i think screw hole (center) should be 3.5 mm from top (top = +Y)
 
 include <nutsnbolts/cyl_head_bolt.scad>;
 include <nutsnbolts/materials.scad>;
@@ -33,7 +32,7 @@ blockLengthX = screwGap + 2*screwFromEdge;
 yTranslate = (blockWidthY/2);
 
 //Screw hole offset, on the y-axis
-screwHoleYFace = 3.5;
+screwHoleYFace = 3.5; //screw hole (center) should be 3.5 mm from top (top = +Y)
 screwHoleOffset = blockWidthY/2 - screwHoleYFace;
 
 
