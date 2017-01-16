@@ -123,8 +123,7 @@ module optSubtracts() {
 
 		translate([optM3nutCatchThickness+0.5*M3nutThickness,0,0])
 		rotate([0,90,0])
-		nutcatch_parallel("M3", l=M3nutThickness+extra);
-
+		nutcatch_parallel("M3", l=M3nutThickness+extra, clk=1);
 
 		translate([0, -opt_screwToScrew, 0]) {
 			rotate([0,-90,0])
@@ -133,7 +132,7 @@ module optSubtracts() {
 
 			translate([optM3nutCatchThickness+0.5*M3nutThickness,0,0])
 			rotate([0,90,0])
-			nutcatch_parallel("M3", l=M3nutThickness+extra);
+			nutcatch_parallel("M3", l=M3nutThickness+extra, clk=1);
 
 			translate([0,-10,-2])
 			cube([M3nutThickness+extra, 10, 4]);
@@ -158,7 +157,7 @@ module extPart() {
 	}
 
 	translate([-dxExt/2-0.4,0,.5]) // center of text
-	rotate([90,0,0])
+	rotate([90,180,0])
 	Letters("M", height=0.6, size=12);
 
 }
